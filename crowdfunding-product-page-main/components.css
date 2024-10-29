@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+:root {
+  --moderateCyan: hsl(176, 70%, 47%);
+  --darkCyan: hsl(176, 72%, 28%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --lightGray: hsl(0, 0%, 77%);
+  --darkGray: hsl(0, 0%, 48%);
+
+  --fs-s: 15px;
+  --fs-m: 20px;
+  --fs-l: 28px;
+  --fw400: 400;
+  --fw600: 600;
+  --fw700: 700;
+  --ff: "Commissioner", serif;
+}
+
+* > *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--ff);
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--lightGray);
+}
+
+.title {
+  font-size: var(--fs-l);
+  font-weight: var(--fw700);
+  color: var(--black);
+}
+.subtitle {
+  font-size: var(--fs-m);
+  font-weight: var(--fw600);
+  color: var(--black);
+}
+.description {
+  font-size: var(--fs-s);
+  font-weight: var(--fw400);
+  color: var(--darkGray);
+  line-height: 1.75rem;
+}
